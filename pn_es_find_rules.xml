@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This is the ES-DE find rules configuration file for Windows for portable installations -->
+<ruleList>
+    <emulator name="PLAYNITE">
+        <!-- Playnite Runner -->
+        <rule type="staticpath">
+            <entry>%ESPATH%\..\PNRunner.exe</entry>
+        </rule>
+    </emulator>
+</ruleList>
