@@ -1,9 +1,9 @@
-﻿Id: esdefepn
+Id: esdefepn
 Name: ES-DE-FE-PN
 Author: Archemedian
-Version: 1.0
+Version: 1.6
 Module: ESDEFEPN.psm1
 Type: Script
 Links:
-    - Name: Website
-      Url: https://some.website.nowhere
+    - Name: Github
+      Url: https://github.com/ArchemedIan/esdefepn

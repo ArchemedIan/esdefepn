@@ -1,4 +1,5 @@
-﻿#NoEnv  
+﻿;@Ahk2Exe-ExeName Configurator
+#NoEnv  
 SetWorkingDir %A_ScriptDir%  
 #NoTrayIcon
 #SingleInstance Force
@@ -110,12 +111,6 @@ loop % PlatformList.Length()
 			Global L_ESPlatform := "endo 64"
 		if ( L_ESPlatform = "gc" )
 			Global L_ESPlatform := "gamecube" 
-		if ( L_ESPlatform = "gb" )
-			Global L_ESPlatform := "game boy" 
-		if ( L_ESPlatform = "gbc" )
-			Global L_ESPlatform := "boy color" 
-		if ( L_ESPlatform = "gba" )
-			Global L_ESPlatform := "boy advanced" 
 		if ( L_ESPlatform = "pc" )
 			Global L_ESPlatform := "dosbox"
 		if ( L_ESPlatform = "psx" . A_Index )
@@ -131,8 +126,26 @@ loop % PlatformList.Length()
 		loop 5
 			if ( L_ESPlatform = "ps" . A_Index )
 				Global L_ESPlatform := "playstation " . A_Index 
+				
+		if ( L_ESPlatform = "gb" ) and (L_Platform = "Nintendo Game Boy")
+		{
+			global match := A_Index 	
+			break
+		}	
+			
+		if ( L_ESPlatform = "gbc" ) and (L_Platform = "Nintendo Game Boy Color")
+		{
+			global match := A_Index 	
+			break
+		}
+		
+		if ( L_ESPlatform = "gba" ) and (L_Platform = "Nintendo Game Boy Advanced")
+		{
+			global match := A_Index 	
+			break
+		}
 
-		if InStr(L_Platform, L_ESPlatform)
+		if InStr(L_Platform, L_ESPlatform) or (match > 0)
 		{
 			global match := A_Index
 			break

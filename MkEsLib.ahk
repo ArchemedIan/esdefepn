@@ -1,4 +1,5 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+﻿;@Ahk2Exe-ExeName MkEsLib
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; #Persistent
 #NoTrayIcon
@@ -25,7 +26,7 @@ Loop, Files, %ESDERomsDir%\*, R
 	pos++
 	StringTrimLeft, ThisShortcutIDChk, PNUrl, %pos% 
 	;msgbox % ThisShortcutIDChk
-	lnkmatch = 0
+	keep = 0
 	loop % NewLib.Length()
 	{
 		ThisName := Newlib[A_Index].Name
@@ -35,18 +36,34 @@ Loop, Files, %ESDERomsDir%\*, R
 		else
 			ThisIsHidden := true
 			
-		if ( ThisShortcutID = ThisShortcutIDChk ) or ThisIsHidden = true
-			lnkmatch = 1
+		if (NewLib[A_Index].IsInstalled = 0)
+			ThisIsInstalled := false
+		else
+			ThisIsInstalled := true
+		
+		if ( ThisShortcutID = ThisShortcutIDChk )
+			if (ThisIsHidden = false) and (ThisIsInstalled = true)
+				keep = 1
 	}
-	if lnkmatch = 0
+	if keep = 0
 		FileDelete, % A_LoopFileFullPath
 }
 
 
 loop % NewLib.Length()
 {
-	ThisName := Newlib[A_Index].Name
-	ThisName := RegExReplace(ThisName, "[-,0/\:*?""<>|]") ;Sanitize name for shortcut
+	ThisName := NewLib[A_Index].Name
+	ThisName := StrReplace(ThisName, "/")
+	ThisName := StrReplace(ThisName, "\")
+	ThisName := StrReplace(ThisName, ":")
+	ThisName := StrReplace(ThisName, "*")
+	ThisName := StrReplace(ThisName, "?")
+	ThisName := StrReplace(ThisName, """")
+	ThisName := StrReplace(ThisName, "<")
+	ThisName := StrReplace(ThisName, ">")
+	ThisName := StrReplace(ThisName, "|")
+	ThisName := StrReplace(ThisName, "]")
+	ThisName := StrReplace(ThisName, "[")
 	ThisGameId := NewLib[A_Index].GameId
 	ThisShortcutID := NewLib[A_Index].Id
 	ThisSourceId := NewLib[A_Index].Source.Id
@@ -91,7 +108,7 @@ loop % NewLib.Length()
 	UrlFile = %ESDERomsDir%\%ThisEsDePlatformMap%\%ThisName%.url
 	if InStr(UrlFile, "error")
 		GoSub PlatformError
-	if (ThisPlatform != "") and (ThisIsHidden = false)
+	if (ThisPlatform != "") and (ThisIsHidden = false) and (ThisIsInstalled = true)
 	{
 		IfNotExist, %ESDERomsDir%\%ThisEsDePlatformMap%
 			FileCreateDir, %ESDERomsDir%\%ThisEsDePlatformMap%

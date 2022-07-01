@@ -5,8 +5,8 @@
         <name>3do</name>
         <fullname>3DO</fullname>
         <path>%ROMPATH%\3do</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>3do</platform>
         <theme>3do</theme>
     </system>
@@ -14,8 +14,8 @@
         <name>64dd</name>
         <fullname>Nintendo 64DD</fullname>
         <path>%ROMPATH%\64dd</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>n64</platform>
         <theme>64dd</theme>
     </system>
@@ -23,8 +23,8 @@
         <name>ags</name>
         <fullname>Adventure Game Studio Game Engine</fullname>
         <path>%ROMPATH%\ags</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>ags</platform>
         <theme>ags</theme>
     </system>
@@ -32,8 +32,8 @@
         <name>amiga</name>
         <fullname>Commodore Amiga</fullname>
         <path>%ROMPATH%\amiga</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>amiga</platform>
         <theme>amiga</theme>
     </system>
@@ -41,8 +41,8 @@
         <name>amiga600</name>
         <fullname>Commodore Amiga 600</fullname>
         <path>%ROMPATH%\amiga600</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>amiga</platform>
         <theme>amiga600</theme>
     </system>
@@ -50,8 +50,8 @@
         <name>amiga1200</name>
         <fullname>Commodore Amiga 1200</fullname>
         <path>%ROMPATH%\amiga1200</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>amiga</platform>
         <theme>amiga1200</theme>
     </system>
@@ -59,8 +59,8 @@
         <name>amigacd32</name>
         <fullname>Commodore Amiga CD32</fullname>
         <path>%ROMPATH%\amigacd32</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>amigacd32</platform>
         <theme>amigacd32</theme>
     </system>
@@ -68,8 +68,8 @@
         <name>amstradcpc</name>
         <fullname>Amstrad CPC</fullname>
         <path>%ROMPATH%\amstradcpc</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>amstradcpc</platform>
         <theme>amstradcpc</theme>
     </system>
@@ -77,8 +77,8 @@
         <name>android</name>
         <fullname>Google Android</fullname>
         <path>%ROMPATH%\android</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>android</platform>
         <theme>android</theme>
     </system>
@@ -86,8 +86,8 @@
         <name>apple2</name>
         <fullname>Apple II</fullname>
         <path>%ROMPATH%\apple2</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>apple2</platform>
         <theme>apple2</theme>
     </system>
@@ -95,16 +95,16 @@
         <name>apple2gs</name>
         <fullname>Apple IIGS</fullname>
         <path>%ROMPATH%\apple2gs</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <theme>apple2gs</theme>
     </system>
     <system>
         <name>arcade</name>
         <fullname>Arcade</fullname>
         <path>%ROMPATH%\arcade</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>arcade</platform>
         <theme>arcade</theme>
     </system>
@@ -112,8 +112,8 @@
         <name>astrocde</name>
         <fullname>Bally Astrocade</fullname>
         <path>%ROMPATH%\astrocde</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>astrocde</platform>
         <theme>astrocade</theme>
     </system>
@@ -121,8 +121,8 @@
         <name>atari2600</name>
         <fullname>Atari 2600</fullname>
         <path>%ROMPATH%\atari2600</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>atari2600</platform>
         <theme>atari2600</theme>
     </system>
@@ -130,8 +130,8 @@
         <name>atari5200</name>
         <fullname>Atari 5200</fullname>
         <path>%ROMPATH%\atari5200</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>atari5200</platform>
         <theme>atari5200</theme>
     </system>
@@ -139,8 +139,8 @@
         <name>atari7800</name>
         <fullname>Atari 7800 ProSystem</fullname>
         <path>%ROMPATH%\atari7800</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>atari7800</platform>
         <theme>atari7800</theme>
     </system>
@@ -148,8 +148,8 @@
         <name>atari800</name>
         <fullname>Atari 800</fullname>
         <path>%ROMPATH%\atari800</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>atari800</platform>
         <theme>atari800</theme>
     </system>
@@ -157,8 +157,8 @@
         <name>atarijaguar</name>
         <fullname>Atari Jaguar</fullname>
         <path>%ROMPATH%\atarijaguar</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>atarijaguar, atarijaguarcd</platform>
         <theme>atarijaguar</theme>
     </system>
@@ -166,8 +166,8 @@
         <name>atarijaguarcd</name>
         <fullname>Atari Jaguar CD</fullname>
         <path>%ROMPATH%\atarijaguarcd</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>atarijaguarcd</platform>
         <theme>atarijaguarcd</theme>
     </system>
@@ -175,8 +175,8 @@
         <name>atarilynx</name>
         <fullname>Atari Lynx</fullname>
         <path>%ROMPATH%\atarilynx</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>atarilynx</platform>
         <theme>atarilynx</theme>
     </system>
@@ -184,8 +184,8 @@
         <name>atarist</name>
         <fullname>Atari ST</fullname>
         <path>%ROMPATH%\atarist</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>atarist</platform>
         <theme>atarist</theme>
     </system>
@@ -193,8 +193,8 @@
         <name>atarixe</name>
         <fullname>Atari XE</fullname>
         <path>%ROMPATH%\atarixe</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>atarixe</platform>
         <theme>atarixe</theme>
     </system>
@@ -202,8 +202,8 @@
         <name>atomiswave</name>
         <fullname>Atomiswave</fullname>
         <path>%ROMPATH%\atomiswave</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>arcade</platform>
         <theme>atomiswave</theme>
     </system>
@@ -211,8 +211,8 @@
         <name>bbcmicro</name>
         <fullname>BBC Micro</fullname>
         <path>%ROMPATH%\bbcmicro</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>bbcmicro</platform>
         <theme>bbcmicro</theme>
     </system>
@@ -220,8 +220,8 @@
         <name>c64</name>
         <fullname>Commodore 64</fullname>
         <path>%ROMPATH%\c64</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>c64</platform>
         <theme>c64</theme>
     </system>
@@ -229,8 +229,8 @@
         <name>cavestory</name>
         <fullname>Cave Story (NXEngine)</fullname>
         <path>%ROMPATH%\cavestory</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>cavestory</platform>
         <theme>cavestory</theme>
     </system>
@@ -238,8 +238,8 @@
         <name>cdimono1</name>
         <fullname>Philips CD-i</fullname>
         <path>%ROMPATH%\cdimono1</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>cdimono1</platform>
         <theme>cdimono1</theme>
     </system>
@@ -247,8 +247,8 @@
         <name>cdtv</name>
         <fullname>Commodore CDTV</fullname>
         <path>%ROMPATH%\cdtv</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>cdtv</platform>
         <theme>cdtv</theme>
     </system>
@@ -256,8 +256,8 @@
         <name>chailove</name>
         <fullname>ChaiLove Game Engine</fullname>
         <path>%ROMPATH%\chailove</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>love</platform>
         <theme>chailove</theme>
     </system>
@@ -265,8 +265,8 @@
         <name>channelf</name>
         <fullname>Fairchild Channel F</fullname>
         <path>%ROMPATH%\channelf</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>channelf</platform>
         <theme>channelf</theme>
     </system>
@@ -274,8 +274,8 @@
         <name>coco</name>
         <fullname>Tandy Color Computer</fullname>
         <path>%ROMPATH%\coco</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>coco</platform>
         <theme>coco</theme>
     </system>
@@ -283,8 +283,8 @@
         <name>colecovision</name>
         <fullname>ColecoVision</fullname>
         <path>%ROMPATH%\coleco</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>colecovision</platform>
         <theme>colecovision</theme>
     </system>
@@ -292,8 +292,8 @@
         <name>daphne</name>
         <fullname>Daphne Arcade LaserDisc Emulator</fullname>
         <path>%ROMPATH%\daphne</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>daphne</platform>
         <theme>daphne</theme>
     </system>
@@ -301,8 +301,8 @@
         <name>desktop</name>
         <fullname>Desktop Applications</fullname>
         <path>%ROMPATH%\desktop</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pc</platform>
         <theme>desktop</theme>
     </system>
@@ -310,8 +310,8 @@
         <name>doom</name>
         <fullname>Doom</fullname>
         <path>%ROMPATH%\doom</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pc</platform>
         <theme>doom</theme>
     </system>
@@ -319,8 +319,8 @@
         <name>dos</name>
         <fullname>DOS (PC)</fullname>
         <path>%ROMPATH%\dos</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>dos</platform>
         <theme>dos</theme>
     </system>
@@ -328,8 +328,8 @@
         <name>dragon32</name>
         <fullname>Dragon 32</fullname>
         <path>%ROMPATH%\dragon32</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>dragon32</platform>
         <theme>dragon32</theme>
     </system>
@@ -337,8 +337,8 @@
         <name>dreamcast</name>
         <fullname>Sega Dreamcast</fullname>
         <path>%ROMPATH%\dreamcast</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>dreamcast</platform>
         <theme>dreamcast</theme>
     </system>
@@ -346,8 +346,8 @@
         <name>epic</name>
         <fullname>Epic Games Store</fullname>
         <path>%ROMPATH%\epic</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pcwindows</platform>
         <theme>epic</theme>
     </system>
@@ -355,8 +355,8 @@
         <name>famicom</name>
         <fullname>Nintendo Family Computer</fullname>
         <path>%ROMPATH%\famicom</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>famicom</platform>
         <theme>famicom</theme>
     </system>
@@ -364,8 +364,8 @@
         <name>fba</name>
         <fullname>FinalBurn Alpha</fullname>
         <path>%ROMPATH%\fba</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>arcade</platform>
         <theme>fba</theme>
     </system>
@@ -373,8 +373,8 @@
         <name>fbneo</name>
         <fullname>FinalBurn Neo</fullname>
         <path>%ROMPATH%\fbneo</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>arcade</platform>
         <theme>fbneo</theme>
     </system>
@@ -382,8 +382,8 @@
         <name>fds</name>
         <fullname>Nintendo Famicom Disk System</fullname>
         <path>%ROMPATH%\fds</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>fds</platform>
         <theme>fds</theme>
     </system>
@@ -391,8 +391,8 @@
         <name>gameandwatch</name>
         <fullname>Nintendo Game and Watch</fullname>
         <path>%ROMPATH%\gameandwatch</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>gameandwatch</platform>
         <theme>gameandwatch</theme>
     </system>
@@ -400,8 +400,8 @@
         <name>gamegear</name>
         <fullname>Sega Game Gear</fullname>
         <path>%ROMPATH%\gamegear</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>gamegear</platform>
         <theme>gamegear</theme>
     </system>
@@ -409,8 +409,8 @@
         <name>gb</name>
         <fullname>Nintendo Game Boy</fullname>
         <path>%ROMPATH%\gb</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>gb</platform>
         <theme>gb</theme>
     </system>
@@ -418,8 +418,8 @@
         <name>gba</name>
         <fullname>Nintendo Game Boy Advance</fullname>
         <path>%ROMPATH%\gba</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>gba</platform>
         <theme>gba</theme>
     </system>
@@ -427,8 +427,8 @@
         <name>gbc</name>
         <fullname>Nintendo Game Boy Color</fullname>
         <path>%ROMPATH%\gbc</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>gbc</platform>
         <theme>gbc</theme>
     </system>
@@ -436,8 +436,8 @@
         <name>gc</name>
         <fullname>Nintendo GameCube</fullname>
         <path>%ROMPATH%\gc</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>gc</platform>
         <theme>gc</theme>
     </system>
@@ -445,8 +445,8 @@
         <name>genesis</name>
         <fullname>Sega Genesis</fullname>
         <path>%ROMPATH%\genesis</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>genesis</platform>
         <theme>genesis</theme>
     </system>
@@ -454,8 +454,8 @@
         <name>gx4000</name>
         <fullname>Amstrad GX4000</fullname>
         <path>%ROMPATH%\gx4000</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>gx4000</platform>
         <theme>gx4000</theme>
     </system>
@@ -463,8 +463,8 @@
         <name>intellivision</name>
         <fullname>Mattel Electronics Intellivision</fullname>
         <path>%ROMPATH%\intellivision</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>intellivision</platform>
         <theme>intellivision</theme>
     </system>
@@ -472,8 +472,8 @@
         <name>j2me</name>
         <fullname>Java 2 Micro Edition (J2ME)</fullname>
         <path>%ROMPATH%\j2me</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>android</platform>
         <theme>j2me</theme>
     </system>
@@ -481,8 +481,8 @@
         <name>kodi</name>
         <fullname>Kodi Home Theatre Software</fullname>
         <path>%ROMPATH%\kodi</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pc</platform>
         <theme>kodi</theme>
     </system>
@@ -490,8 +490,8 @@
         <name>lutris</name>
         <fullname>Lutris Open Gaming Platform</fullname>
         <path>%ROMPATH%\lutris</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pc</platform>
         <theme>lutris</theme>
     </system>
@@ -499,8 +499,8 @@
         <name>lutro</name>
         <fullname>Lutro Game Engine</fullname>
         <path>%ROMPATH%\lutro</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>lutro</platform>
         <theme>lutro</theme>
     </system>
@@ -508,8 +508,8 @@
         <name>macintosh</name>
         <fullname>Apple Macintosh</fullname>
         <path>%ROMPATH%\macintosh</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>macintosh</platform>
         <theme>macintosh</theme>
     </system>
@@ -517,8 +517,8 @@
         <name>mame</name>
         <fullname>Multiple Arcade Machine Emulator</fullname>
         <path>%ROMPATH%\mame</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>>
         <platform>arcade</platform>
         <theme>mame</theme>
     </system>
@@ -526,8 +526,8 @@
         <name>mame-advmame</name>
         <fullname>AdvanceMAME</fullname>
         <path>%ROMPATH%\mame-advmame</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>arcade</platform>
         <theme>mame-advmame</theme>
     </system>
@@ -535,8 +535,8 @@
         <name>mame-mame4all</name>
         <fullname>MAME4ALL</fullname>
         <path>%ROMPATH%\mame-mame4all</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>arcade</platform>
         <theme>mame-mame4all</theme>
     </system>
@@ -544,8 +544,8 @@
         <name>mastersystem</name>
         <fullname>Sega Master System</fullname>
         <path>%ROMPATH%\mastersystem</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>mastersystem</platform>
         <theme>mastersystem</theme>
     </system>
@@ -553,8 +553,8 @@
         <name>megacd</name>
         <fullname>Sega Mega-CD</fullname>
         <path>%ROMPATH%\megacd</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>segacd</platform>
         <theme>megacd</theme>
     </system>
@@ -562,8 +562,8 @@
         <name>megacdjp</name>
         <fullname>Sega Mega-CD</fullname>
         <path>%ROMPATH%\megacdjp</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>segacd</platform>
         <theme>megacdjp</theme>
     </system>
@@ -571,8 +571,8 @@
         <name>megadrive</name>
         <fullname>Sega Mega Drive</fullname>
         <path>%ROMPATH%\megadrive</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>megadrive</platform>
         <theme>megadrive</theme>
     </system>
@@ -580,8 +580,8 @@
         <name>mess</name>
         <fullname>Multi Emulator Super System</fullname>
         <path>%ROMPATH%\mess</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>mess</platform>
         <theme>mess</theme>
     </system>
@@ -589,8 +589,8 @@
         <name>moonlight</name>
         <fullname>Moonlight Game Streaming</fullname>
         <path>%ROMPATH%\moonlight</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>moonlight</platform>
         <theme>moonlight</theme>
     </system>
@@ -598,8 +598,8 @@
         <name>moto</name>
         <fullname>Thomson MO/TO Series</fullname>
         <path>%ROMPATH%\moto</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>moto</platform>
         <theme>moto</theme>
     </system>
@@ -607,8 +607,8 @@
         <name>msx</name>
         <fullname>MSX</fullname>
         <path>%ROMPATH%\msx</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>msx</platform>
         <theme>msx</theme>
     </system>
@@ -616,8 +616,8 @@
         <name>msx1</name>
         <fullname>MSX1</fullname>
         <path>%ROMPATH%\msx1</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>msx</platform>
         <theme>msx1</theme>
     </system>
@@ -625,8 +625,8 @@
         <name>msx2</name>
         <fullname>MSX2</fullname>
         <path>%ROMPATH%\msx2</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>msx2</platform>
         <theme>msx2</theme>
     </system>
@@ -634,8 +634,8 @@
         <name>msxturbor</name>
         <fullname>MSX Turbo R</fullname>
         <path>%ROMPATH%\msxturbor</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>msxturbor</platform>
         <theme>msxturbor</theme>
     </system>
@@ -643,8 +643,8 @@
         <name>multivision</name>
         <fullname>Othello Multivision</fullname>
         <path>%ROMPATH%\multivision</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>sg-1000</platform>
         <theme>multivision</theme>
     </system>
@@ -652,8 +652,8 @@
         <name>n3ds</name>
         <fullname>Nintendo 3DS</fullname>
         <path>%ROMPATH%\n3ds</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>n3ds</platform>
         <theme>n3ds</theme>
     </system>
@@ -661,8 +661,8 @@
         <name>n64</name>
         <fullname>Nintendo 64</fullname>
         <path>%ROMPATH%\n64</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>n64</platform>
         <theme>n64</theme>
     </system>
@@ -670,8 +670,8 @@
         <name>naomi</name>
         <fullname>Sega NAOMI</fullname>
         <path>%ROMPATH%\naomi</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>arcade</platform>
         <theme>naomi</theme>
     </system>
@@ -679,8 +679,8 @@
         <name>naomigd</name>
         <fullname>Sega NAOMI GD-ROM</fullname>
         <path>%ROMPATH%\naomigd</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>arcade</platform>
         <theme>naomigd</theme>
     </system>
@@ -688,8 +688,8 @@
         <name>nds</name>
         <fullname>Nintendo DS</fullname>
         <path>%ROMPATH%\nds</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>nds</platform>
         <theme>nds</theme>
     </system>
@@ -706,8 +706,8 @@
         <name>neogeocd</name>
         <fullname>SNK Neo Geo CD</fullname>
         <path>%ROMPATH%\neogeocd</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>neogeocd</platform>
         <theme>neogeocd</theme>
     </system>
@@ -715,8 +715,8 @@
         <name>neogeocdjp</name>
         <fullname>SNK Neo Geo CD</fullname>
         <path>%ROMPATH%\neogeocdjp</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>neogeocd</platform>
         <theme>neogeocdjp</theme>
     </system>
@@ -724,8 +724,8 @@
         <name>nes</name>
         <fullname>Nintendo Entertainment System</fullname>
         <path>%ROMPATH%\nes</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>nes</platform>
         <theme>nes</theme>
     </system>
@@ -733,8 +733,8 @@
         <name>ngp</name>
         <fullname>SNK Neo Geo Pocket</fullname>
         <path>%ROMPATH%\ngp</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>ngp</platform>
         <theme>ngp</theme>
     </system>
@@ -742,8 +742,8 @@
         <name>ngpc</name>
         <fullname>SNK Neo Geo Pocket Color</fullname>
         <path>%ROMPATH%\ngpc</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>ngpc</platform>
         <theme>ngpc</theme>
     </system>
@@ -751,8 +751,8 @@
         <name>odyssey2</name>
         <fullname>Magnavox Odyssey2</fullname>
         <path>%ROMPATH%\odyssey2</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>odyssey2</platform>
         <theme>odyssey2</theme>
     </system>
@@ -760,8 +760,8 @@
         <name>openbor</name>
         <fullname>OpenBOR Game Engine</fullname>
         <path>%ROMPATH%\openbor</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>openbor</platform>
         <theme>openbor</theme>
     </system>
@@ -769,8 +769,8 @@
         <name>oric</name>
         <fullname>Tangerine Computer Systems Oric</fullname>
         <path>%ROMPATH%\oric</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>oric</platform>
         <theme>oric</theme>
     </system>
@@ -778,8 +778,8 @@
         <name>palm</name>
         <fullname>Palm OS</fullname>
         <path>%ROMPATH%\palm</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>>
         <platform>palm</platform>
         <theme>palm</theme>
     </system>
@@ -787,8 +787,8 @@
         <name>pc</name>
         <fullname>IBM PC</fullname>
         <path>%ROMPATH%\pc</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pc</platform>
         <theme>pc</theme>
     </system>
@@ -796,8 +796,8 @@
         <name>pc88</name>
         <fullname>NEC PC-8800 Series</fullname>
         <path>%ROMPATH%\pc88</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pc88</platform>
         <theme>pc88</theme>
     </system>
@@ -805,8 +805,8 @@
         <name>pc98</name>
         <fullname>NEC PC-9800 Series</fullname>
         <path>%ROMPATH%\pc98</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pc98</platform>
         <theme>pc98</theme>
     </system>
@@ -814,8 +814,8 @@
         <name>pcengine</name>
         <fullname>NEC PC Engine</fullname>
         <path>%ROMPATH%\pcengine</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pcengine</platform>
         <theme>pcengine</theme>
     </system>
@@ -823,8 +823,8 @@
         <name>pcenginecd</name>
         <fullname>NEC PC Engine CD</fullname>
         <path>%ROMPATH%\pcenginecd</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pcenginecd</platform>
         <theme>pcenginecd</theme>
     </system>
@@ -832,8 +832,8 @@
         <name>pcfx</name>
         <fullname>NEC PC-FX</fullname>
         <path>%ROMPATH%\pcfx</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pcfx</platform>
         <theme>pcfx</theme>
     </system>
@@ -841,8 +841,8 @@
         <name>pokemini</name>
         <fullname>Nintendo Pokémon Mini</fullname>
         <path>%ROMPATH%\pokemini</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pokemini</platform>
         <theme>pokemini</theme>
     </system>
@@ -850,8 +850,8 @@
         <name>ports</name>
         <fullname>Ports</fullname>
         <path>%ROMPATH%\ports</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pc</platform>
         <theme>ports</theme>
     </system>
@@ -859,8 +859,8 @@
         <name>ps2</name>
         <fullname>Sony PlayStation 2</fullname>
         <path>%ROMPATH%\ps2</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>ps2</platform>
         <theme>ps2</theme>
     </system>
@@ -868,8 +868,8 @@
         <name>ps3</name>
         <fullname>Sony PlayStation 3</fullname>
         <path>%ROMPATH%\ps3</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>ps3</platform>
         <theme>ps3</theme>
     </system>
@@ -877,8 +877,8 @@
         <name>ps4</name>
         <fullname>Sony PlayStation 4</fullname>
         <path>%ROMPATH%\ps4</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>ps4</platform>
         <theme>ps4</theme>
     </system>
@@ -886,8 +886,8 @@
         <name>psp</name>
         <fullname>Sony PlayStation Portable</fullname>
         <path>%ROMPATH%\psp</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>psp</platform>
         <theme>psp</theme>
     </system>
@@ -895,8 +895,8 @@
         <name>psvita</name>
         <fullname>Sony PlayStation Vita</fullname>
         <path>%ROMPATH%\psvita</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>psvita</platform>
         <theme>psvita</theme>
     </system>
@@ -904,8 +904,8 @@
         <name>psx</name>
         <fullname>Sony PlayStation</fullname>
         <path>%ROMPATH%\psx</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>psx</platform>
         <theme>psx</theme>
     </system>
@@ -913,8 +913,8 @@
         <name>samcoupe</name>
         <fullname>SAM Coupé</fullname>
         <path>%ROMPATH%\samcoupe</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>samcoupe</platform>
         <theme>samcoupe</theme>
     </system>
@@ -922,8 +922,8 @@
         <name>satellaview</name>
         <fullname>Nintendo Satellaview</fullname>
         <path>%ROMPATH%\satellaview</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>satellaview</platform>
         <theme>satellaview</theme>
     </system>
@@ -931,8 +931,8 @@
         <name>saturn</name>
         <fullname>Sega Saturn</fullname>
         <path>%ROMPATH%\saturn</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>saturn</platform>
         <theme>saturn</theme>
     </system>
@@ -940,8 +940,8 @@
         <name>saturnjp</name>
         <fullname>Sega Saturn</fullname>
         <path>%ROMPATH%\saturnjp</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>saturn</platform>
         <theme>saturnjp</theme>
     </system>
@@ -949,8 +949,8 @@
         <name>scummvm</name>
         <fullname>ScummVM Game Engine</fullname>
         <path>%ROMPATH%\scummvm</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>scummvm</platform>
         <theme>scummvm</theme>
     </system>
@@ -958,8 +958,8 @@
         <name>sega32x</name>
         <fullname>Sega Mega Drive 32X</fullname>
         <path>%ROMPATH%\sega32x</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>sega32x</platform>
         <theme>sega32x</theme>
     </system>
@@ -967,8 +967,8 @@
         <name>sega32xjp</name>
         <fullname>Sega Super 32X</fullname>
         <path>%ROMPATH%\sega32xjp</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>sega32x</platform>
         <theme>sega32xjp</theme>
     </system>
@@ -976,8 +976,8 @@
         <name>sega32xna</name>
         <fullname>Sega Genesis 32X</fullname>
         <path>%ROMPATH%\sega32xna</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>sega32x</platform>
         <theme>sega32xna</theme>
     </system>
@@ -985,8 +985,8 @@
         <name>segacd</name>
         <fullname>Sega CD</fullname>
         <path>%ROMPATH%\segacd</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>segacd</platform>
         <theme>segacd</theme>
     </system>
@@ -994,8 +994,8 @@
         <name>sfc</name>
         <fullname>Nintendo SFC (Super Famicom)</fullname>
         <path>%ROMPATH%\sfc</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>snes</platform>
         <theme>sfc</theme>
     </system>
@@ -1003,8 +1003,8 @@
         <name>sg-1000</name>
         <fullname>Sega SG-1000</fullname>
         <path>%ROMPATH%\sg-1000</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>sg-1000</platform>
         <theme>sg-1000</theme>
     </system>
@@ -1012,8 +1012,8 @@
         <name>snes</name>
         <fullname>Nintendo SNES (Super Nintendo)</fullname>
         <path>%ROMPATH%\snes</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>snes</platform>
         <theme>snes</theme>
     </system>
@@ -1021,8 +1021,8 @@
         <name>snesna</name>
         <fullname>Nintendo SNES (Super Nintendo)</fullname>
         <path>%ROMPATH%\snesna</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>snes</platform>
         <theme>snesna</theme>
     </system>
@@ -1030,8 +1030,8 @@
         <name>solarus</name>
         <fullname>Solarus Game Engine</fullname>
         <path>%ROMPATH%\solarus</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>solarus</platform>
         <theme>solarus</theme>
     </system>
@@ -1039,8 +1039,8 @@
         <name>spectravideo</name>
         <fullname>Spectravideo</fullname>
         <path>%ROMPATH%\spectravideo</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>spectravideo</platform>
         <theme>spectravideo</theme>
     </system>
@@ -1048,8 +1048,8 @@
         <name>steam</name>
         <fullname>Valve Steam</fullname>
         <path>%ROMPATH%\steam</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>steam</platform>
         <theme>steam</theme>
     </system>
@@ -1057,8 +1057,8 @@
         <name>stratagus</name>
         <fullname>Stratagus Game Engine</fullname>
         <path>%ROMPATH%\stratagus</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>stratagus</platform>
         <theme>stratagus</theme>
     </system>
@@ -1066,8 +1066,8 @@
         <name>sufami</name>
         <fullname>Bandai SuFami Turbo</fullname>
         <path>%ROMPATH%\sufami</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>sufami</platform>
         <theme>sufami</theme>
     </system>
@@ -1075,8 +1075,8 @@
         <name>supergrafx</name>
         <fullname>NEC SuperGrafx</fullname>
         <path>%ROMPATH%\supergrafx</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>supergrafx</platform>
         <theme>supergrafx</theme>
     </system>
@@ -1084,8 +1084,8 @@
         <name>switch</name>
         <fullname>Nintendo Switch</fullname>
         <path>%ROMPATH%\switch</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>switch</platform>
         <theme>switch</theme>
     </system>
@@ -1093,8 +1093,8 @@
         <name>symbian</name>
         <fullname>Symbian</fullname>
         <path>%ROMPATH%\symbian</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>android</platform>
         <theme>symbian</theme>
     </system>
@@ -1102,8 +1102,8 @@
         <name>tanodragon</name>
         <fullname>Tano Dragon</fullname>
         <path>%ROMPATH%\tanodragon</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>dragon32</platform>
         <theme>tanodragon</theme>
     </system>
@@ -1111,8 +1111,8 @@
         <name>tg16</name>
         <fullname>NEC TurboGrafx-16</fullname>
         <path>%ROMPATH%\tg16</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pcengine</platform>
         <theme>tg16</theme>
     </system>
@@ -1120,8 +1120,8 @@
         <name>tg-cd</name>
         <fullname>NEC TurboGrafx-CD</fullname>
         <path>%ROMPATH%\tg-cd</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>pcenginecd</platform>
         <theme>tg-cd</theme>
     </system>
@@ -1129,8 +1129,8 @@
         <name>ti99</name>
         <fullname>Texas Instruments TI-99</fullname>
         <path>%ROMPATH%\ti99</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>ti99</platform>
         <theme>ti99</theme>
     </system>
@@ -1138,8 +1138,8 @@
         <name>tic80</name>
         <fullname>TIC-80 Game Engine</fullname>
         <path>%ROMPATH%\tic80</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>tic80</platform>
         <theme>tic80</theme>
     </system>
@@ -1147,8 +1147,8 @@
         <name>to8</name>
         <fullname>Thomson TO8</fullname>
         <path>%ROMPATH%\to8</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>moto</platform>
         <theme>to8</theme>
     </system>
@@ -1156,8 +1156,8 @@
         <name>trs-80</name>
         <fullname>Tandy TRS-80</fullname>
         <path>%ROMPATH%\trs-80</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>trs-80</platform>
         <theme>trs-80</theme>
     </system>
@@ -1165,8 +1165,8 @@
         <name>uzebox</name>
         <fullname>Uzebox</fullname>
         <path>%ROMPATH%\uzebox</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>uzebox</platform>
         <theme>uzebox</theme>
     </system>
@@ -1174,8 +1174,8 @@
         <name>vectrex</name>
         <fullname>Vectrex</fullname>
         <path>%ROMPATH%\vectrex</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>vectrex</platform>
         <theme>vectrex</theme>
     </system>
@@ -1183,8 +1183,8 @@
         <name>vic20</name>
         <fullname>Commodore VIC-20</fullname>
         <path>%ROMPATH%\vic20</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>vic20</platform>
         <theme>vic20</theme>
     </system>
@@ -1192,8 +1192,8 @@
         <name>videopac</name>
         <fullname>Philips Videopac G7000</fullname>
         <path>%ROMPATH%\videopac</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>videopac</platform>
         <theme>videopac</theme>
     </system>
@@ -1201,8 +1201,8 @@
         <name>virtualboy</name>
         <fullname>Nintendo Virtual Boy</fullname>
         <path>%ROMPATH%\virtualboy</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>virtualboy</platform>
         <theme>virtualboy</theme>
     </system>
@@ -1210,8 +1210,8 @@
         <name>wii</name>
         <fullname>Nintendo Wii</fullname>
         <path>%ROMPATH%\wii</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>wii</platform>
         <theme>wii</theme>
     </system>
@@ -1219,8 +1219,8 @@
         <name>wiiu</name>
         <fullname>Nintendo Wii U</fullname>
         <path>%ROMPATH%\wiiu</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>wiiu</platform>
         <theme>wiiu</theme>
     </system>
@@ -1228,8 +1228,8 @@
         <name>wonderswan</name>
         <fullname>Bandai WonderSwan</fullname>
         <path>%ROMPATH%\wonderswan</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>wonderswan</platform>
         <theme>wonderswan</theme>
     </system>
@@ -1237,8 +1237,8 @@
         <name>wonderswancolor</name>
         <fullname>Bandai WonderSwan Color</fullname>
         <path>%ROMPATH%\wonderswancolor</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>wonderswancolor</platform>
         <theme>wonderswancolor</theme>
     </system>
@@ -1246,8 +1246,8 @@
         <name>x1</name>
         <fullname>Sharp X1</fullname>
         <path>%ROMPATH%\x1</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>x1</platform>
         <theme>x1</theme>
     </system>
@@ -1255,8 +1255,8 @@
         <name>x68000</name>
         <fullname>Sharp X68000</fullname>
         <path>%ROMPATH%\x68000</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>x68000</platform>
         <theme>x68000</theme>
     </system>
@@ -1264,8 +1264,8 @@
         <name>xbox</name>
         <fullname>Microsoft Xbox</fullname>
         <path>%ROMPATH%\xbox</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>xbox</platform>
         <theme>xbox</theme>
     </system>
@@ -1273,8 +1273,8 @@
         <name>xbox360</name>
         <fullname>Microsoft Xbox 360</fullname>
         <path>%ROMPATH%\xbox360</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>xbox360</platform>
         <theme>xbox360</theme>
     </system>
@@ -1282,8 +1282,8 @@
         <name>zmachine</name>
         <fullname>Infocom Z-machine</fullname>
         <path>%ROMPATH%\zmachine</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>zmachine</platform>
         <theme>zmachine</theme>
     </system>
@@ -1291,8 +1291,8 @@
         <name>zx81</name>
         <fullname>Sinclair ZX81</fullname>
         <path>%ROMPATH%\zx81</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>zx81</platform>
         <theme>zx81</theme>
     </system>
@@ -1300,8 +1300,8 @@
         <name>zxspectrum</name>
         <fullname>Sinclair ZX Spectrum</fullname>
         <path>%ROMPATH%\zxspectrum</path>
-        <extension>.url .URL .Url .uRl .urL</extension>
-        <command label="PlayNite">%EMULATOR_PLAYNITE% "%ROMRAW%"</command>
+        <extension>.url .URL</extension>
+        <command>%ESCAPESPECIALS% %ESPATH%/../PNRunner.exe %ROMRAW%</command>
         <platform>zxspectrum</platform>
         <theme>zxspectrum</theme>
     </system>
