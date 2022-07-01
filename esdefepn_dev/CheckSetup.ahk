@@ -18,11 +18,9 @@ if (%update% = "update")
 	gosub UpdateESDE
 	exitapp
 }
-;es_find_rules_path = %PluginDataDir%\EmulationStation-DE\resources\systems\windows\es_find_rules.xml
-;es_systems_path = %PluginDataDir%\EmulationStation-DE\resources\systems\windows\es_systems.xml
+
 es_systems_path = %PluginDataDir%\EmulationStation-DE\.emulationstation\custom_systems\es_systems.xml
 
-;FileRead,XML_es_find_rules, %A_ScriptDir%\pn_es_find_rules.xml
 FileRead,XML_es_systems, %A_ScriptDir%\pn_es_systems.xml
 
 ;msgbox % PluginDataDir
