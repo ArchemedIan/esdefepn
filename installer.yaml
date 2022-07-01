@@ -1,0 +1,7 @@
+AddonId: 'esdefepn'
+Packages:
+  - Version: 1.6
+    RequiredApiVersion: 5.6.0
+    ReleaseDate: 2022-07-01
+    PackageUrl: https://github.com/ArchemedIan/esdefepn/releases/download/v1.6/esdefepn_1_6.pext
+
