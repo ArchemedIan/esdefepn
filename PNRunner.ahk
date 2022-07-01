@@ -46,14 +46,17 @@ else
 if (Target = "playnite") and (Cmd = "start")
 {
 	Global StartID := CmdArg
-	;check ini for windowTitle to monitor
+	IniRead, Delay, % ini, Settings, WindowsDetectDelay(seconds), 30
+	
+	Delay := Delay * 1000
+	
 	ExeToMonitor := GetExeName(StartID)
 	;msgbox % ExeToMonitor
 	if (ExeToMonitor = "unset") or (ExeToMonitor = "noini")
 	{
 		WinListBefore := GetCurrentWindows()
 		Run, %PNUrlFull%
-		sleep 30000
+		sleep %Delay%
 		WinListAfter := GetCurrentWindows()
 		
 		Global ExeList := [] 
