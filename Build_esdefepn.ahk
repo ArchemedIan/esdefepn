@@ -21,13 +21,15 @@ FileAppend, % YamlData, %A_ScriptDir%\esdefepn_dev\extension.yaml
 runwait, %toolbox% pack "%A_ScriptDir%\esdefepn_dev" "%A_ScriptDir%"
 
 Loop, Read, %A_ScriptDir%\installer.yaml
-	If InStr(A_LoopReadLine, "- Version: %ver%")
+{
+	;msgbox "%A_LoopReadLine%"  = "  - Version: %ver%"
+	if (A_LoopReadLine = "  - Version: " ver)
 	{
-		NotAnUpdate = 1
+		Global NotAnUpdate := "1"
 		break
 	}
-	
-if (NotAnUpdate != 1)
+}	
+if (NotAnUpdate != "1")
 {
 	FileMove, %A_ScriptDir%\installer.yaml, %A_ScriptDir%\installer-old.yaml
 	Loop, Read, %A_ScriptDir%\installer-old.yaml, %A_ScriptDir%\installer.yaml
